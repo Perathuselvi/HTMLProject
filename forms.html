@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormInputs</title>
+</head>
+<body>
+    <form action="index.html" method="get" enctype="multipart/form-data">
+        <div>
+        <label for="username">UserName</label>
+        <input type="text" name="username" id="username" placeholder="EnterUsername" required >
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password" required>
+    </div>
+    <div>
+        <label for="dateofbirth">Date Of Birth</label>
+        <input type="date" name="dateofbirth" id="dateofbirth" min="1900-01-01">
+    </div>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+    </div>
+    <div>
+        <label for="male">Female</label>
+        <input type="radio" name="gender" id="male" value="female">
+    </div>
+    <div>
+        <label for="smsalert">SmsAlert</label>
+        <input type="checkbox" name="smsalert" id="smsalert">
+    </div>
+    <div>
+        <label for="emailalert">EmailAlert</label>
+        <input type="checkbox" name="emailalert" id="emailalert">
+    </div>
+    <div>
+        <div><label for="about">About</label></div> 
+        <textarea name="About me" id="about" cols="30" rows="10"></textarea>
+        <div><label for="email">Email</label></div>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <select name="state" id="state" multiple>
+            <option value="TamilNadu">TamilNadu</option>
+            <option value="Kerala">Kerala</option>
+            <option value="AnthraPradesh">AnthraPradesh</option>
+        </select>
+
+    </div>
+    <button  type="submit">SignUp</button>
+    <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+</html>

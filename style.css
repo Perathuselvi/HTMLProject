@@ -32,13 +32,13 @@ p{
     text-shadow: 20px 20px 0px 50px rgb(14, 22, 1);
     line-height: 1.5em;
     letter-spacing:normal;
-    text-align: left;
+    text-align: justify;
    
     word-spacing: normal;
     max-height: 100px;
     max-width: 300px;
     overflow: scroll;
-    border-width: 50px 20px 50px 20px;
+    border-width: 20px 20px 20px 20px;
     display: flex;
     margin: 20px auto 20px auto;
     padding: 15px;

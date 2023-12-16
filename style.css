@@ -1,0 +1,65 @@
+h1{
+    border: 1px solid black;
+    color: rgb(16, 12, 12);
+    font-weight: 1000;
+    font-style: italic;
+    background-color: rgb(225, 21, 174);
+    
+    text-transform: uppercase;
+    
+    
+    
+}
+table{
+    border:1px solid rgb(67, 107, 6) 
+    
+}
+td,th{
+    border:1px solid rgb(67, 107, 6)  
+}
+td{
+    color: rgb(20, 3, 44);
+    background-color: rgb(21, 225, 79);
+    
+}
+th{
+    background-color: rgb(250, 97, 8);
+}
+p{
+    border:1px solid rgb(82, 228, 15);
+    background-color: rgb(193, 224, 174);
+    text-indent: 50px;
+    text-shadow: 20px 20px 0px 50px rgb(14, 22, 1);
+    line-height: 1.5em;
+    letter-spacing:normal;
+    text-align: left;
+   
+    word-spacing: normal;
+    max-height: 100px;
+    max-width: 300px;
+    overflow: scroll;
+    border-width: 50px 20px 50px 20px;
+    display: flex;
+    margin: 20px auto 20px auto;
+    padding: 15px;
+    border-radius: 20px;
+
+    border-image: url("./Media/imagefulltree.jpg") 30 stretch;
+  
+}
+body{
+    text-align: center;
+    background-color: rgb(148, 127, 255);
+
+}
+li{
+    color: black;
+    border: 1px solid grey;
+    display: inline;
+    background-color: cornflowerblue;
+    margin: 10px;
+}
+.commingsoon{
+    visibility: hidden;
+
+}

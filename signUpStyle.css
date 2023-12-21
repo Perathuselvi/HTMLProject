@@ -1,0 +1,67 @@
+body{
+    background-image: url("./Media/image1.png.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regform{
+    width: 500px;
+    margin: 250px auto;
+    padding: 10px 20px 30px;
+    color:#000000;
+    background-color: #EED6D3;
+    font-size: 30px;
+    border-radius: 10px;
+  
+}
+.regform h1{
+    text-align: center;
+    color: rgb(147, 13, 236);;
+}
+.regform .inputlabel{
+    display: block;
+}
+.inputclass input{
+    width: 100%;
+    font-size:1.2em;
+    border: 1px solid palevioletred;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 10px 10px 10px;
+
+}
+input:focus{
+    background-color: rgb(189, 168, 244);
+}
+
+.button{
+    text-align: center;
+}
+button{
+    background-color: rgb(189, 219, 236);
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-color: blue;
+    box-shadow: 4px;
+}
+.radio input{
+    accent-color: rgb(147, 13, 236);
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
